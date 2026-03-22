@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Hub | Kratikaa Verma</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <strong>Kratikaa Verma</strong>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>The Contact Hub</h1>
+
+        <section id="contact-form">
+            <form action="https://httpbin.org/get" method="GET">
+                <fieldset>
+                    <legend>Reach Out</legend>
+
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" placeholder="name@example.com">
+                    </p>
+
+                    <p>
+                        <label for="topic">Topic:</label><br>
+                        <select id="topic" name="topic">
+                            <option value="hiring">Hiring</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="general" selected>General</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" cols="35"></textarea>
+                    </p>
+
+                    <button type="submit">Submit Request</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kratikaa Verma. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
